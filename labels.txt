@@ -1,4 +1,9 @@
-aeroplane
-bicycle
-bird
-boat
+Input
+Select
+Radio
+Checkbox
+Rate
+Switch
+DatePicker
+RangePicker
+Text

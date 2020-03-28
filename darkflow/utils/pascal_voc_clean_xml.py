@@ -36,6 +36,8 @@ def pascal_voc_clean_xml(ANN, pick, exclusive = False):
         in_file = open(file)
         tree=ET.parse(in_file)
         root = tree.getroot()
+        # print('=====================================')
+        # print(root.find('filename').text)
         jpg = str(root.find('filename').text)
         imsize = root.find('size')
         w = int(imsize.find('width').text)
